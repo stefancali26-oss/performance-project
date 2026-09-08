@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Performance Project | Pre-Season 2026</title>
+<meta name="description" content="8 weeks of individualised pre-season performance coaching for serious AFL and soccer athletes. Test. Plan. Train. Monitor. Retest.">
+<meta name="theme-color" content="#050505">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Performance Project | Pre-Season 2026">
+<meta property="og:description" content="8 weeks of individualised pre-season performance coaching for serious AFL and soccer athletes. Test. Plan. Train. Monitor. Retest.">
+<meta property="og:image" content="assets/og-share.jpg">
+<meta property="og:image:width" content="941">
+<meta property="og:image:height" content="1672">
+<meta property="og:site_name" content="Performance Project">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Performance Project | Pre-Season 2026">
+<meta name="twitter:description" content="Eight weeks of individualised pre-season coaching for serious AFL and soccer athletes.">
+<meta name="twitter:image" content="assets/og-share.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,90..125,400..900&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   PERFORMANCE PROJECT — PRE-SEASON 2026
+   ============================================================ */
+
+:root{
+  --ink:#050505;
+  --char:#0F1113;
+  --steel:#191C1F;
+  --line:#2A2E33;
+  --silver:#E9EBEE;
+  --silver-2:#A7ADB4;
+  --silver-3:#6E757C;
+  --gold:#E0A016;
+  --gold-hi:#F7CE52;
+  --afl:#FF6A10;
+  --soccer:#00C853;
+
+  --w:1120px;
+  --pad:clamp(20px,5vw,40px);
+  --gap:clamp(28px,4vw,44px);
+  --sec-y:clamp(64px,10vw,120px);
+
+  --f:'Archivo',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{animation:none!important;transition:none!important}
+}
+
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--silver-2);
+  font-family:var(--f);
+  font-size:clamp(15.5px,1.05vw,17px);
+  line-height:1.6;
+  font-variation-settings:'wdth' 100;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+
+img{max-width:100%;height:auto;display:block}
+p{margin:0 0 1.05em}
+p:last-child{margin-bottom:0}
+
+a{color:var(--gold-hi)}
+:focus-visible{outline:2px solid var(--gold-hi);outline-offset:3px}
+
+.skip{
+  position:absolute;left:-9999px;top:0;z-index:99;
+  background:var(--gold);color:#000;padding:12px 18px;font-weight:700;
+}
+.skip:focus{left:12px;top:12px}
+
+/* ---------- layout ---------- */
+.wrap{width:100%;max-width:var(--w);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+.wrap--narrow{max-width:760px}
+
+.sec{padding:var(--sec-y) 0;position:relative}
+.sec--tight{padding:clamp(48px,7vw,80px) 0}
+.sec--dark{background:var(--char);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+
+.cols{display:grid;gap:var(--gap)}
+@media (min-width:820px){.cols{grid-template-columns:1fr 1fr;gap:clamp(40px,5vw,72px)}}
+
+/* ---------- type ---------- */
+.display{
+  font-family:var(--f);
+  font-variation-settings:'wdth' 112;
+  font-weight:800;
+  text-transform:uppercase;
+  color:var(--silver);
+  font-size:clamp(28px,6.2vw,50px);
+  line-height:1.02;
+  letter-spacing:-.005em;
+  margin:0 0 .7em;
+  text-wrap:balance;
+}
+.display--xl{font-size:clamp(38px,9.5vw,76px)}
+
+h3{
+  font-variation-settings:'wdth' 108;
+  font-weight:700;
+  text-transform:uppercase;
+  color:var(--silver);
+  font-size:clamp(16px,2.4vw,19px);
+  letter-spacing:.02em;
+  line-height:1.15;
+  margin:0 0 .55em;
+}
+
+.sub{color:var(--gold-hi);margin-bottom:1em}
+
+.eyebrow{
+  font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--silver-3);margin:0 0 18px;
+}
+
+.intro{max-width:62ch;margin-bottom:clamp(30px,4vw,48px)}
+.note{color:var(--silver-3);font-size:.9em;max-width:60ch}
+.micro{color:var(--silver-3);font-size:13.5px;letter-spacing:.02em;margin:16px 0 0}
+
+.lede-gold{
+  color:var(--gold);
+  background:linear-gradient(180deg,var(--gold-hi) 0%,var(--gold) 55%,#B87C09 100%);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.strong-out{
+  color:var(--silver);font-weight:600;
+  border-left:2px solid var(--gold);padding-left:18px;margin-top:1.6em;
+}
+
+.tagline{
+  margin-top:clamp(28px,4vw,40px);
+  font-weight:800;text-transform:uppercase;
+  font-variation-settings:'wdth' 108;
+  font-size:clamp(15px,2.6vw,20px);
+  line-height:1.15;letter-spacing:.01em;
+  color:var(--gold);
+}
+.tagline--sm{font-size:14px;margin-top:18px}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-block;
+  font-weight:800;text-transform:uppercase;text-decoration:none;
+  font-variation-settings:'wdth' 105;
+  font-size:clamp(13.5px,2.2vw,15px);
+  letter-spacing:.06em;
+  padding:17px 30px;
+  border:1px solid transparent;
+  transition:transform .15s ease,background .2s ease,color .2s ease;
+}
+.btn--gold{
+  background:linear-gradient(180deg,var(--gold-hi),var(--gold));
+  color:#120C00;
+  box-shadow:0 0 0 1px rgba(247,206,82,.25),0 10px 30px -14px rgba(224,160,22,.75);
+}
+.btn--gold:hover,.btn--gold:focus-visible{background:var(--gold-hi);transform:translateY(-1px)}
+.btn--ghost{background:transparent;border-color:var(--line);color:var(--silver)}
+.btn--ghost:hover,.btn--ghost:focus-visible{border-color:var(--gold);color:var(--gold-hi)}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;
+  padding:clamp(48px,9vw,86px) 0 clamp(72px,11vw,120px);
+  background:
+    radial-gradient(120% 80% at 50% 0%,#1A1D20 0%,#0A0B0C 55%,#050505 100%);
+  overflow:hidden;
+  border-bottom:1px solid var(--line);
+}
+.hero__grain{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.hero__grain::before,.hero__grain::after{
+  content:'';position:absolute;width:78%;height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold) 25%,var(--gold-hi) 50%,var(--gold) 75%,transparent);
+  box-shadow:0 0 26px 2px rgba(224,160,22,.4);
+  transform:rotate(-58deg);
+}
+.hero__grain::before{top:16%;left:-39%}
+.hero__grain::after{bottom:12%;right:-39%;opacity:.75}
+.hero__inner{position:relative;text-align:left}
+@media (min-width:900px){
+  .hero{display:flex;align-items:center;min-height:88vh}
+  .hero__inner{width:100%}
+  .hero__logo{width:340px}
+
+}
+.hero__logo{
+  width:min(300px,62vw);height:auto;margin:0 0 clamp(26px,4vw,40px);
+}
+.hero__sub{max-width:54ch;color:var(--silver-2);font-size:clamp(16px,2.3vw,18.5px);margin-bottom:clamp(26px,3.5vw,34px)}
+
+.edge--bottom{
+  position:absolute;left:0;right:0;bottom:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold) 35%,var(--gold-hi) 50%,var(--gold) 65%,transparent);
+  opacity:.65;
+}
+
+/* page-load sequence: one orchestrated moment */
+.hero__logo,.hero .eyebrow,.hero h1,.hero__sub,.hero .btn,.hero .micro,.hero .tagline{
+  animation:rise .7s cubic-bezier(.2,.7,.2,1) backwards;
+}
+.hero__logo{animation-delay:.05s}
+.hero .eyebrow{animation-delay:.18s}
+.hero h1{animation-delay:.26s}
+.hero__sub{animation-delay:.36s}
+.hero .btn{animation-delay:.46s}
+.hero .micro{animation-delay:.52s}
+.hero .tagline{animation-delay:.6s}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* ---------- problem ---------- */
+.qs{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.qs li{
+  padding:14px 0;border-bottom:1px solid var(--line);
+  color:var(--silver);font-weight:500;
+}
+
+/* ---------- process ---------- */
+.steps{list-style:none;margin:0 0 clamp(32px,4vw,48px);padding:0;display:grid;gap:0}
+.steps li{
+  display:grid;grid-template-columns:64px 1fr;gap:0 18px;
+  padding:22px 0;border-top:1px solid var(--line);
+}
+.steps li:last-child{border-bottom:1px solid var(--line)}
+.steps__n{
+  grid-row:1/3;
+  font-weight:800;font-size:clamp(24px,5vw,32px);
+  font-variation-settings:'wdth' 100;
+  color:var(--gold);line-height:1;
+}
+.steps h3{margin-bottom:.35em}
+.steps p{margin:0;max-width:52ch}
+
+.chain{
+  font-weight:800;text-transform:uppercase;letter-spacing:.06em;
+  font-size:clamp(13px,2.4vw,16px);color:var(--silver);
+  font-variation-settings:'wdth' 104;
+}
+.chain i{color:var(--gold);font-style:normal;padding:0 .25em}
+
+/* ---------- feature grid ---------- */
+.grid{display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
+@media (min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media (min-width:940px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--ink);padding:clamp(20px,3vw,28px)}
+.card p{margin:0;font-size:.95em}
+
+/* ---------- testing ---------- */
+.ticks,.crosses{list-style:none;margin:0 0 1.2em;padding:0}
+.ticks li,.crosses li{position:relative;padding:7px 0 7px 26px;color:var(--silver);font-size:.97em}
+.ticks li::before{
+  content:'';position:absolute;left:0;top:15px;
+  width:9px;height:9px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);
+  transform:rotate(-45deg);
+}
+.crosses li{color:var(--silver-3)}
+.crosses li::before{
+  content:'';position:absolute;left:1px;top:16px;width:11px;height:2px;
+  background:var(--silver-3);box-shadow:0 0 0 0 transparent;transform:rotate(45deg);
+}
+.crosses li::after{
+  content:'';position:absolute;left:1px;top:16px;width:11px;height:2px;
+  background:var(--silver-3);transform:rotate(-45deg);
+}
+
+.value{border:1px solid var(--line);padding:clamp(22px,3.2vw,32px);background:var(--ink);align-self:start}
+.value dl{margin:0 0 18px}
+.value dl>div{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line)}
+.value dt{font-size:.93em}
+.value dd{margin:0;color:var(--silver);font-weight:700;white-space:nowrap}
+.value__total{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:18px}
+.value__total span{font-size:.85em;text-transform:uppercase;letter-spacing:.12em;color:var(--silver-3)}
+.value__total strong{font-size:clamp(28px,5vw,38px);color:var(--gold);font-weight:800;line-height:1}
+
+.notadelaide{
+  margin-top:clamp(28px,4vw,40px);padding-top:clamp(24px,3.5vw,32px);
+  border-top:1px solid var(--line);max-width:62ch;
+}
+.notadelaide h3{color:var(--gold-hi);margin-bottom:.6em}
+
+/* ---------- testimonials ---------- */
+.testis{display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
+@media (min-width:620px){.testis{grid-template-columns:1fr 1fr}}
+@media (min-width:940px){.testis{grid-template-columns:repeat(3,1fr)}}
+.testi{background:var(--ink);padding:clamp(22px,3vw,28px);margin:0}
+.testi__quote{
+  color:var(--silver);font-size:.98em;line-height:1.55;
+  margin:0 0 18px;position:relative;padding-left:20px;
+}
+.testi__quote::before{content:'"';position:absolute;left:-2px;top:-6px;color:var(--gold);font-size:1.6em;font-weight:800}
+.testi__foot{font-style:normal;font-size:13px;color:var(--silver-3)}
+.testi__foot span{display:block;margin-top:2px}
+
+/* ---------- next steps ---------- */
+.nextsteps{list-style:none;counter-reset:step;margin:clamp(22px,3vw,30px) 0;padding:0;border-top:1px solid var(--line)}
+.nextsteps li{
+  counter-increment:step;position:relative;padding:14px 0 14px 34px;
+  border-bottom:1px solid var(--line);color:var(--silver-2);font-size:.95em;
+}
+.nextsteps li::before{
+  content:counter(step);position:absolute;left:0;top:14px;
+  color:var(--gold);font-weight:800;font-size:.95em;
+}
+.nextsteps strong{color:var(--silver);font-weight:700}
+
+/* ---------- plans ---------- */
+.plans{display:grid;gap:var(--gap)}
+@media (min-width:900px){.plans{grid-template-columns:1fr 1fr;align-items:start}}
+.plan{border:1px solid var(--line);padding:clamp(24px,3.4vw,36px);background:var(--char)}
+.plan--hybrid{border-color:rgba(224,160,22,.55);background:linear-gradient(180deg,#15130C,#0D0E0F 60%)}
+.plan__name{
+  font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:12.5px;
+  color:var(--silver-3);margin-bottom:14px;
+}
+.plan__price{
+  font-weight:800;font-size:clamp(40px,8vw,58px);line-height:1;color:var(--silver);
+  font-variation-settings:'wdth' 105;margin-bottom:8px;
+}
+.plan__price span{font-size:.3em;letter-spacing:.14em;color:var(--silver-3);vertical-align:middle}
+.plan--hybrid .plan__price{color:var(--gold-hi)}
+.plan__terms{font-size:13.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--silver-3);margin-bottom:26px}
+.plan__lede{color:var(--silver)}
+.plan__hero{
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:20px 0;margin:22px 0;color:var(--silver);
+}
+.plan__hero strong{font-size:1.5em;color:var(--gold);font-weight:800}
+.plan__hero span{color:var(--silver-3);font-size:.9em}
+.plan .btn{margin-top:10px;width:100%;text-align:center}
+
+/* ---------- intake ---------- */
+.codes{display:grid;gap:var(--gap);margin-bottom:28px}
+@media (min-width:820px){.codes{grid-template-columns:1fr 1fr}}
+.code{border:1px solid var(--line);overflow:hidden;background:var(--char)}
+.code img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 35%}
+.code__body{padding:clamp(20px,3vw,28px);border-top:2px solid var(--line)}
+.code--soccer .code__body{border-top-color:var(--soccer)}
+.code--afl .code__body{border-top-color:var(--afl)}
+.code--soccer h3{color:var(--soccer)}
+.code--afl h3{color:var(--afl)}
+.code__meta,.code__start{font-size:.92em;color:var(--silver-3);margin-bottom:.9em}
+.code__meta strong,.code__start strong{color:var(--silver);font-weight:700;font-size:1.05em}
+.code__start{margin-bottom:0}
+
+/* ---------- capacity ---------- */
+.bignum{display:flex;align-items:baseline;gap:16px;margin-top:26px;flex-wrap:wrap}
+.bignum strong{font-size:clamp(56px,14vw,110px);line-height:.85;color:var(--gold);font-weight:800;font-variation-settings:'wdth' 100}
+.bignum span{text-transform:uppercase;letter-spacing:.12em;font-size:12.5px;color:var(--silver-3);max-width:22ch;line-height:1.5}
+
+/* ---------- coach ---------- */
+.creds{list-style:none;margin:26px 0 0;padding:0;border-top:1px solid var(--line)}
+.creds li{padding:12px 0;border-bottom:1px solid var(--line);color:var(--silver);font-size:.95em}
+
+/* ---------- final ---------- */
+.sec--final{
+  background:radial-gradient(100% 70% at 50% 100%,#1A1710 0%,#050505 70%);
+  border-top:1px solid var(--line);
+  overflow:hidden;
+}
+.sec--final::before{
+  content:'';position:absolute;top:10%;left:-39%;
+  width:78%;height:2px;transform:rotate(-58deg);
+  background:linear-gradient(90deg,transparent,var(--gold) 40%,var(--gold-hi) 50%,var(--gold) 60%,transparent);
+  box-shadow:0 0 26px 2px rgba(224,160,22,.35);
+  pointer-events:none;
+}
+.final__copy{color:var(--silver);font-size:clamp(17px,3vw,21px);font-weight:500;margin-bottom:clamp(26px,3.5vw,34px)}
+
+/* ---------- form ---------- */
+.formwrap{
+  margin:clamp(26px,4vw,36px) 0 20px;
+  border:1px solid var(--line);background:#fff;
+}
+.formwrap iframe{display:block;width:100%;border:0}
+
+/* ---------- faq ---------- */
+.faq{border-bottom:1px solid var(--line)}
+.faq:first-of-type{border-top:1px solid var(--line)}
+.faq summary{
+  cursor:pointer;list-style:none;padding:18px 40px 18px 0;position:relative;
+  color:var(--silver);font-weight:600;font-size:1em;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:'';position:absolute;right:6px;top:26px;
+  width:9px;height:9px;border-right:2px solid var(--gold);border-bottom:2px solid var(--gold);
+  transform:rotate(45deg);transition:transform .2s ease;
+}
+.faq[open] summary::after{transform:rotate(-135deg);top:30px}
+.faq p{padding:0 0 20px;max-width:64ch}
+
+/* ---------- footer ---------- */
+.foot{padding:clamp(48px,7vw,72px) 0 calc(96px + env(safe-area-inset-bottom));border-top:1px solid var(--line);text-align:center}
+.foot__mark{width:82px;margin:0 auto 4px;opacity:.9}
+.foot .micro{margin-top:14px}
+
+/* ---------- sticky CTA ---------- */
+.stickycta{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  padding:12px var(--pad) calc(12px + env(safe-area-inset-bottom));
+  background:rgba(5,5,5,.92);
+  backdrop-filter:blur(10px);
+  border-top:1px solid var(--line);
+  transform:translateY(110%);
+  transition:transform .25s ease;
+}
+.stickycta.is-on{transform:none}
+.stickycta .btn{display:block;text-align:center;padding:15px 20px}
+@media (min-width:900px){.stickycta{display:none}}
+
+</style>
+</head>
+<body>
+
+<a class="skip" href="#apply">Skip to application</a>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero__grain" aria-hidden="true"></div>
+  <div class="wrap hero__inner">
+    <img class="hero__logo" src="assets/pp-logo-gold.png" alt="Performance Project" width="821" height="600">
+    <p class="eyebrow">Performance Project — Pre-Season 2026</p>
+    <h1 class="display display--xl">Your pre-season.<br><span class="lede-gold">Sorted.</span></h1>
+    <p class="hero__sub">Eight weeks of individualised performance coaching for serious AFL and soccer athletes who want to stop guessing and arrive at pre-season ready to work.</p>
+    <a class="btn btn--gold" href="#apply">Apply for Performance Project</a>
+    <p class="micro">Limited initial intake. Online + Hybrid options available.</p>
+    <p class="tagline">Eliminate the guessing. Get to work.</p>
+  </div>
+  <div class="edge edge--bottom" aria-hidden="true"></div>
+</header>
+
+<main>
+
+<!-- ============ PROBLEM ============ -->
+<section class="sec sec--problem">
+  <div class="wrap">
+    <h2 class="display">Your season finishes.<br>What happens next?</h2>
+    <div class="cols">
+      <div>
+        <p>For a lot of players, the weeks between the end of the season and the beginning of club pre-season become a guessing game.</p>
+        <p class="strong-out">Most serious players don't need more motivation. They need a plan. Performance Project gives you one.</p>
+      </div>
+      <ul class="qs">
+        <li>How much should I run?</li>
+        <li>How often should I gym?</li>
+        <li>When should I sprint?</li>
+        <li>What conditioning should I be doing?</li>
+        <li>What do I actually need to improve?</li>
+        <li>Am I doing too much — or not enough?</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ POSITIONING ============ -->
+<section class="sec">
+  <div class="wrap wrap--narrow">
+    <h2 class="display">This isn't another pre-season template</h2>
+    <p>Performance Project is built around the individual athlete. Your testing results, sport, position, playing level, training history, injury history, strengths, weaknesses, schedule, equipment access and club return date all contribute to how your program is built.</p>
+    <p>You won't receive someone else's program. You won't be left trying to work out what to do next.</p>
+    <p class="strong-out">We establish where you're at. We determine what matters. Then we get to work.</p>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="sec sec--dark">
+  <div class="wrap">
+    <h2 class="display">No guessing.<br>A process.</h2>
+    <ol class="steps">
+      <li><span class="steps__n">01</span><h3>Test</h3><p>Establish exactly where you are starting.</p></li>
+      <li><span class="steps__n">02</span><h3>Plan</h3><p>Identify the qualities that matter most and build your training around your sport, position, history, schedule and goals.</p></li>
+      <li><span class="steps__n">03</span><h3>Train</h3><p>Follow a structured individual plan delivered through TeamBuildr.</p></li>
+      <li><span class="steps__n">04</span><h3>Monitor</h3><p>Weekly check-ins, training feedback and program adjustments when circumstances change.</p></li>
+      <li><span class="steps__n">05</span><h3>Retest</h3><p>Repeat the relevant testing and objectively compare where you started to where you finished.</p></li>
+    </ol>
+    <p class="chain">Test <i>→</i> Plan <i>→</i> Train <i>→</i> Monitor <i>→</i> Retest</p>
+  </div>
+</section>
+
+<!-- ============ INCLUDED ============ -->
+<section class="sec">
+  <div class="wrap">
+    <h2 class="display">Your complete 8-week pre-season plan</h2>
+    <p class="intro">Every athlete is programmed individually. The exact weekly structure depends on your testing, sport, position, training history, availability and return-to-club date.</p>
+    <div class="grid">
+      <article class="card"><h3>Individual programming</h3><p>Fully individualised program delivered through TeamBuildr.</p></article>
+      <article class="card"><h3>Strength</h3><p>Up to 3 gym sessions per week where appropriate.</p></article>
+      <article class="card"><h3>Running + conditioning</h3><p>Up to 2 running/conditioning sessions per week where appropriate.</p></article>
+      <article class="card"><h3>Off-legs conditioning</h3><p>Additional off-legs conditioning programmed where appropriate.</p></article>
+      <article class="card"><h3>Speed + power</h3><p>Speed, acceleration and power development based on individual need.</p></article>
+      <article class="card"><h3>Sport-specific preparation</h3><p>AFL or soccer-specific field programming.</p></article>
+      <article class="card"><h3>Weekly check-in</h3><p>Ongoing monitoring, program adjustments and direct coaching support throughout the block.</p></article>
+      <article class="card"><h3>Pre + post testing</h3><p>Objective testing before and after the project.</p></article>
+      <article class="card"><h3>Performance reports</h3><p>Individual reports explaining your results and pre-to-post changes.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRAINING ============ -->
+<section class="sec sec--dark">
+  <div class="wrap wrap--narrow">
+    <h2 class="display">Every week has a purpose</h2>
+    <p>Your exact training structure depends on your individual needs. A typical Performance Project week may include:</p>
+    <ul class="ticks">
+      <li>3 gym sessions</li>
+      <li>2 running / conditioning sessions</li>
+      <li>1 additional off-legs conditioning session</li>
+      <li>Speed development</li>
+      <li>Power development</li>
+      <li>AFL or soccer-specific field work</li>
+      <li>Recovery or additional training where appropriate</li>
+    </ul>
+    <p>Programming is delivered through TeamBuildr and monitored every week — not written once and forgotten.</p>
+    <p class="strong-out">If your circumstances change, your program changes with you.</p>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="sec sec--dark">
+  <div class="wrap">
+    <h2 class="display">Athletes who've done the work</h2>
+    <div class="testis">
+      <blockquote class="testi">
+        <p class="testi__quote">Sessions have helped me a lot. They're making me stronger and I seem to be faster too — and in such a short period of time.</p>
+        <footer class="testi__foot">Pana Kikianis <span>Central Defender — Adelaide United, A-League</span></footer>
+      </blockquote>
+      <blockquote class="testi">
+        <p class="testi__quote">I have never worked with someone in the gym like you. I can't wait to come back and hopefully train with you again.</p>
+        <footer class="testi__foot">Julian Tisato <span>Goalkeeper — Valmontone FC, Serie D</span></footer>
+      </blockquote>
+      <blockquote class="testi">
+        <p class="testi__quote">He's always checking in to see how I'm going, making sure I feel supported both in and out of the gym. His guidance has made training both enjoyable and effective.</p>
+        <footer class="testi__foot">Chrissy Panagaris <span>Comets FC, Women's NPL</span></footer>
+      </blockquote>
+      <blockquote class="testi">
+        <p class="testi__quote">Loved our sessions together. Feeling good!</p>
+        <footer class="testi__foot">Mo Toure <span>Striker — Norwich City FC, English Premier League</span></footer>
+      </blockquote>
+      <blockquote class="testi">
+        <p class="testi__quote">I used your power workouts all year!</p>
+        <footer class="testi__foot">Alexandar Popovic <span>Central Defender — Sydney FC, A-League</span></footer>
+      </blockquote>
+      <blockquote class="testi">
+        <p class="testi__quote">I think you're the man to bring that out of me. It's eye opening — even in the gym, things I'm working on.</p>
+        <footer class="testi__foot">Steve Hall <span>Goalkeeper — Brighton &amp; Hove Albion U21</span></footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTING ============ -->
+<section class="sec sec--dark">
+  <div class="wrap">
+    <h2 class="display">Test first.<br>Don't guess.</h2>
+    <div class="cols">
+      <div>
+        <p>Local Adelaide athletes complete testing at Peaq Performance. Testing is selected based on the athlete and may include relevant VALD measures plus practical performance assessments.</p>
+        <ul class="ticks">
+          <li>VALD ForceDecks</li>
+          <li>VALD ForceFrame</li>
+          <li>Relevant strength measures</li>
+          <li>Jump / power measures</li>
+          <li>Asymmetry measures</li>
+          <li>1RM bench press</li>
+          <li>Maximum pull-ups</li>
+          <li>2km time trial</li>
+        </ul>
+        <p class="note">Not every athlete completes every assessment. Your testing battery is chosen around you.</p>
+      </div>
+      <aside class="value">
+        <h3>What the testing is worth</h3>
+        <dl>
+          <div><dt>Standalone testing + report</dt><dd>$220</dd></div>
+          <div><dt>Pre-project testing + report</dt><dd>Included</dd></div>
+          <div><dt>Post-project testing + report</dt><dd>Included</dd></div>
+        </dl>
+        <p class="value__total"><span>Combined standalone value</span><strong>$440</strong></p>
+      </aside>
+    </div>
+    <div class="notadelaide">
+      <h3>Not in Adelaide?</h3>
+      <p>Performance Project Online is also available to interstate and international athletes. Your testing protocol will be adapted around what's available to you — strength benchmarks, sprint testing, jump testing where available, pull-ups, bench press, 2km time trial and field conditioning assessments. The coaching standard remains the same. Only the testing method changes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPTIONS ============ -->
+<section class="sec" id="options">
+  <div class="wrap">
+    <h2 class="display">Choose your level of support</h2>
+    <div class="plans">
+
+      <article class="plan">
+        <p class="plan__name">Performance Project — Online</p>
+        <p class="plan__price">$997 <span>AUD</span></p>
+        <p class="plan__terms">8 weeks · approx. $125 per week</p>
+        <ul class="ticks">
+          <li>Initial consultation</li>
+          <li>Needs analysis</li>
+          <li>Pre-project testing + individual performance report</li>
+          <li>Individual TeamBuildr program</li>
+          <li>Gym programming</li>
+          <li>Running + conditioning</li>
+          <li>Off-legs conditioning</li>
+          <li>AFL or soccer-specific field programming</li>
+          <li>Speed + power work where appropriate</li>
+          <li>Weekly check-ins and ongoing monitoring</li>
+          <li>Program adjustments</li>
+          <li>Exercise / video feedback</li>
+          <li>Direct coaching support</li>
+          <li>Post-project testing + final report</li>
+          <li>Pre vs post comparison</li>
+          <li>Transition recommendations into club pre-season</li>
+        </ul>
+        <a class="btn btn--ghost" href="#apply">Apply for Online</a>
+      </article>
+
+      <article class="plan plan--hybrid">
+        <p class="plan__name">Performance Project — Hybrid</p>
+        <p class="plan__price">$1,297 <span>AUD</span></p>
+        <p class="plan__terms">8 weeks · approx. $162 per week</p>
+        <p class="plan__lede">Everything included in Performance Project Online, plus one coached group strength and conditioning session every week at Peaq Performance.</p>
+        <p class="plan__hero"><strong>8 ×</strong> coached group S&amp;C sessions<br><span>90–120 minutes each</span></p>
+        <p>Best for Adelaide-based athletes who want the individualisation of Performance Project plus weekly face-to-face coaching.</p>
+        <p class="note">$300 more than Online — for eight coached sessions with me across the project.</p>
+        <a class="btn btn--gold" href="#apply">Apply for Hybrid</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ RISK REVERSAL ============ -->
+<section class="sec sec--tight">
+  <div class="wrap wrap--narrow">
+    <h2 class="display">If it's not right, you're not stuck</h2>
+    <p>If you pay in full and, in the first two weeks, injury stops you from training or the project genuinely isn't delivering what you signed up for, you get your money back. After week two, the program is underway and refunds aren't available — that's the point where testing, planning and real training time have already gone in.</p>
+  </div>
+</section>
+
+<!-- ============ WHO ============ -->
+<section class="sec sec--dark">
+  <div class="wrap">
+    <h2 class="display">Built for the player who wants to get to work</h2>
+    <p class="intro">Performance Project is for the player who is serious about their next season but doesn't want to spend another off-season guessing what they should be doing.</p>
+    <div class="cols">
+      <div>
+        <h3 class="sub">This is you if</h3>
+        <ul class="ticks">
+          <li>You are serious about AFL or soccer.</li>
+          <li>You want an individual plan rather than a generic template.</li>
+          <li>You want to know what you actually need to improve.</li>
+          <li>You are prepared to train consistently.</li>
+          <li>You want objective testing.</li>
+          <li>You want accountability.</li>
+          <li>You want your program adjusted when circumstances change.</li>
+          <li>You want to arrive at pre-season ready to train.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="sub">This probably isn't for you if</h3>
+        <ul class="crosses">
+          <li>You are looking for the cheapest possible online program.</li>
+          <li>You want a generic template.</li>
+          <li>You are not prepared to train consistently.</li>
+          <li>You do not want to be accountable to the process.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTAKE DATES ============ -->
+<section class="sec sec--intake">
+  <div class="wrap">
+    <h2 class="display">2026 intake</h2>
+    <div class="codes">
+      <article class="code code--soccer">
+        <img src="assets/soccer-athlete.jpg" alt="" loading="lazy" width="941" height="710">
+        <div class="code__body">
+          <h3>Soccer</h3>
+          <p class="code__meta">Testing + onboarding<br><strong>14–27 September 2026</strong></p>
+          <p class="code__start">Program begins<br><strong>Monday 28 September 2026</strong></p>
+        </div>
+      </article>
+      <article class="code code--afl">
+        <img src="assets/afl-athlete.jpg" alt="" loading="lazy" width="941" height="710">
+        <div class="code__body">
+          <h3>AFL</h3>
+          <p class="code__meta">Testing + onboarding<br><strong>22 September – 4 October 2026</strong></p>
+          <p class="code__start">Program begins<br><strong>Monday 5 October 2026</strong></p>
+        </div>
+      </article>
+    </div>
+    <p class="note">Programming can be adjusted around your actual club return date where required.</p>
+  </div>
+</section>
+
+<!-- ============ CAPACITY ============ -->
+<section class="sec sec--dark sec--tight">
+  <div class="wrap wrap--narrow">
+    <h2 class="display">A small intake for a reason</h2>
+    <p>Performance Project is intentionally limited. Every athlete receives individual testing, programming, monitoring and reporting, while Hybrid athletes also receive weekly coached S&amp;C.</p>
+    <p class="bignum"><strong>~7</strong><span>athletes in the initial intake</span></p>
+  </div>
+</section>
+
+<!-- ============ COACH ============ -->
+<section class="sec">
+  <div class="wrap wrap--narrow">
+    <h2 class="display">The coaching behind the project</h2>
+    <p>I'm Stefan Cali, a strength and conditioning coach based in Adelaide. I coach across football and soccer, from junior academy athletes through to senior state-level programs, and my work is built around testing, data and individualisation rather than templates.</p>
+    <p>I was part of the high-performance environment at Sturt Football Club through their 2025 SANFL premiership season, and I'm Sturt's Strength &amp; Conditioning Coach for 2026 — currently programming for players including 2025 Magarey Medallist and Team of the Year selection Tom Lewis, and fellow Team of the Year selections Will Coomblas and Will Snelling. I also individually programmed Woodville-West Torrens midfielder Blake Hansen ahead of the 2026 season, who has gone on to play 16 games of League football this year. In 2026 I was also South Australia's Strength &amp; Conditioning Coach for the SANFL state team's clashes against the VFL and WAFL. Performance Project takes the same type of process I believe every serious athlete deserves — assess first, identify what needs improving, build the plan, monitor it and then retest.</p>
+    <ul class="creds">
+      <li>Strength &amp; Conditioning Coach, Sturt Football Club — 2026</li>
+      <li>High performance — Sturt Football Club, 2025 SANFL premiers</li>
+      <li>SANFL State Team S&amp;C Coach — 2026 vs VFL &amp; WAFL</li>
+      <li>Peaq Performance, Adelaide</li>
+      <li>AFL and soccer coaching experience</li>
+      <li>Athlete-centred, data-driven approach</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="sec sec--final">
+  <div class="wrap wrap--narrow">
+    <h2 class="display display--xl">Your pre-season can be different this year.</h2>
+    <p class="final__copy">Know what you need to improve.<br>Know what you need to do.<br>Then get to work.</p>
+    <a class="btn btn--gold" href="#apply">Apply for Performance Project</a>
+    <p class="micro">Soccer starts 28 September. AFL starts 5 October.</p>
+    <p class="tagline">Eliminate the guessing.<br>Get to work.</p>
+  </div>
+</section>
+
+<!-- ============ APPLICATION ============ -->
+<section class="sec sec--dark" id="apply">
+  <div class="wrap wrap--narrow">
+    <h2 class="display">Express your interest</h2>
+    <p>Performance Project is a small, hands-on intake. Complete the application below so I can understand where you are currently at, what you want to improve and whether the project is the right fit for you.</p>
+    <ol class="nextsteps">
+      <li><strong>Apply</strong> — two minutes, no payment required.</li>
+      <li><strong>Hear back within 48 hours</strong> — by email, to confirm fit and next steps.</li>
+      <li><strong>Book your testing session</strong> (or online kickoff call) and your 8 weeks begin.</li>
+    </ol>
+    <p class="note">Submitting an application does not automatically guarantee a position.</p>
+
+    <div class="formwrap">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeKw_1PfwKy9OpHrIfNZnUV0kAGJZwAk4Nb_ONvo7RMjN1lYQ/viewform?embedded=true"
+        title="Performance Project application form"
+        loading="lazy"
+        width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">
+        Loading form…
+      </iframe>
+    </div>
+
+    <p class="micro">Having trouble viewing the form?</p>
+    <a class="btn btn--ghost" href="https://docs.google.com/forms/d/e/1FAIpQLSeKw_1PfwKy9OpHrIfNZnUV0kAGJZwAk4Nb_ONvo7RMjN1lYQ/viewform" target="_blank" rel="noopener">Open application form</a>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="sec">
+  <div class="wrap wrap--narrow">
+    <h2 class="display">Questions</h2>
+
+    <details class="faq"><summary>Is Performance Project only for elite players?</summary>
+      <p>No. It is designed for serious and aspiring elite AFL and soccer athletes. Your current level matters less than whether you are genuinely committed to improving.</p></details>
+
+    <details class="faq"><summary>Do I have to live in Adelaide?</summary>
+      <p>No. Online athletes can complete the program interstate or overseas. Testing will be adapted around what is available to you.</p></details>
+
+    <details class="faq"><summary>Where does local testing happen?</summary>
+      <p>Peaq Performance in Adelaide.</p></details>
+
+    <details class="faq"><summary>What app is the program delivered through?</summary>
+      <p>TeamBuildr.</p></details>
+
+    <details class="faq"><summary>Is the program the same for every athlete?</summary>
+      <p>No. Programming is individualised around your testing, sport, position, history, availability and goals.</p></details>
+
+    <details class="faq"><summary>What happens if my club schedule changes?</summary>
+      <p>Your program can be reviewed and adjusted. This is coaching, not a static PDF.</p></details>
+
+    <details class="faq"><summary>What is the difference between Online and Hybrid?</summary>
+      <p>Hybrid includes everything in Online plus one coached 90–120 minute group S&amp;C session every week at Peaq Performance.</p></details>
+
+    <details class="faq"><summary>Is testing included?</summary>
+      <p>Yes. Local athletes receive pre and post testing and individual reports. Combined standalone testing/reporting value is $440.</p></details>
+
+    <details class="faq"><summary>Is payment upfront?</summary>
+      <p>The full investment is $997 for Online and $1,297 for Hybrid. If you would like to discuss payment options, note it on your application and we'll sort it out before you start.</p></details>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <img src="assets/pp-monogram-gold.png" alt="" width="600" height="460" class="foot__mark">
+    <p class="tagline tagline--sm">Eliminate the guessing. Get to work.</p>
+    <p class="micro">Performance Project · Adelaide, South Australia · &copy; 2026</p>
+  </div>
+</footer>
+
+<div class="stickycta">
+  <a class="btn btn--gold" href="#apply">Apply for Performance Project</a>
+</div>
+
+<script>
+// Sticky mobile CTA: show after the hero, hide over the application form.
+(function () {
+  var bar = document.querySelector('.stickycta');
+  var hero = document.querySelector('.hero');
+  var apply = document.getElementById('apply');
+  if (!bar || !hero || !apply || !('IntersectionObserver' in window)) return;
+
+  var pastHero = false;
+  var atForm = false;
+
+  function sync() {
+    bar.classList.toggle('is-on', pastHero && !atForm);
+  }
+
+  new IntersectionObserver(function (e) {
+    pastHero = !e[0].isIntersecting;
+    sync();
+  }, { threshold: 0 }).observe(hero);
+
+  new IntersectionObserver(function (e) {
+    atForm = e[0].isIntersecting;
+    sync();
+  }, { threshold: 0 }).observe(apply);
+})();
+
+</script>
+</body>
+</html>
